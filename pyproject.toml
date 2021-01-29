@@ -25,5 +25,5 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
-addopts = "--html=report.html"
+addopts = "--html=report.html --cov . -n 2"
 log_cli_level = "INFO"
