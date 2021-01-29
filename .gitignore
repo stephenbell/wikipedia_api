@@ -1,0 +1,6 @@
+assets
+.coverage
+*.html
+*.lock
+*.pyc
+.pytest_cache
